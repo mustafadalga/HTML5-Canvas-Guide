@@ -1,0 +1,7 @@
+#chart {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #000;
+}
