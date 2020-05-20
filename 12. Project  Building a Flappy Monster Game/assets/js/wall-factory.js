@@ -6,7 +6,7 @@ function WallFactor(canvas) {
     factory.canvas = canvas;
     factory.context = factory.canvas.getContext('2d');
 
-    factory.gap = 200;
+    factory.gap = 250;
     factory.maxGap = 300;
     factory.freq = 2000;
     factory.walls = [];
