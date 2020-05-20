@@ -107,6 +107,7 @@ FlappyMonster.prototype.bindEvents = function() {
         switch (game.currentState) {
             case INITIAL:
                 game.currentState = GAME_PLAYING;
+                game.gameScore.start = new Date();
                 game.wallFactory.generateWalls();
 
                 break;
