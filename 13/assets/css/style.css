@@ -1,0 +1,232 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 950px;
+    border: 1px solid #e0e0e0;
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-block {
+    width: 160px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.colors {
+    background-color: #ece8e8;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.colors button {
+    display: inline-block;
+    border: 1px solid #00000026;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px
+}
+
+.colors button:nth-of-type(1) {
+    background-color: #0000ff;
+}
+
+.colors button:nth-of-type(2) {
+    background-color: #009fff;
+}
+
+.colors button:nth-of-type(3) {
+    background-color: #0fffff;
+}
+
+.colors button:nth-of-type(4) {
+    background-color: #bfffff;
+}
+
+.colors button:nth-of-type(5) {
+    background-color: #000000;
+}
+
+.colors button:nth-of-type(6) {
+    background-color: #333333;
+}
+
+.colors button:nth-of-type(7) {
+    background-color: #666666;
+}
+
+.colors button:nth-of-type(8) {
+    background-color: #999999;
+}
+
+.colors button:nth-of-type(9) {
+    background-color: #ffcc66;
+}
+
+.colors button:nth-of-type(10) {
+    background-color: #ffcc00;
+}
+
+.colors button:nth-of-type(11) {
+    background-color: #ffff00;
+}
+
+.colors button:nth-of-type(12) {
+    background-color: #ffff99;
+}
+
+.colors button:nth-of-type(13) {
+    background-color: #003300;
+}
+
+.colors button:nth-of-type(14) {
+    background-color: #555000;
+}
+
+.colors button:nth-of-type(15) {
+    background-color: #00ff00;
+}
+
+.colors button:nth-of-type(16) {
+    background-color: #99ff99;
+}
+
+.colors button:nth-of-type(17) {
+    background-color: #f00000;
+}
+
+.colors button:nth-of-type(18) {
+    background-color: #ff6600;
+}
+
+.colors button:nth-of-type(19) {
+    background-color: #ff9933;
+}
+
+.colors button:nth-of-type(20) {
+    background-color: #f5deb3;
+}
+
+.colors button:nth-of-type(21) {
+    background-color: #330000;
+}
+
+.colors button:nth-of-type(22) {
+    background-color: #663300;
+}
+
+.colors button:nth-of-type(23) {
+    background-color: #cc6600;
+}
+
+.colors button:nth-of-type(24) {
+    background-color: #deb887;
+}
+
+.colors button:nth-of-type(25) {
+    background-color: #aa0fff;
+}
+
+.colors button:nth-of-type(26) {
+    background-color: #cc66cc;
+}
+
+.colors button:nth-of-type(27) {
+    background-color: #ff66ff;
+}
+
+.colors button:nth-of-type(28) {
+    background-color: #ff99ff;
+}
+
+.colors button:nth-of-type(29) {
+    background-color: #e8c4e8;
+}
+
+.colors button:nth-of-type(30) {
+    background-color: #ffffff;
+}
+
+.brushes {
+    padding-top: 5px
+}
+
+.brushes button {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: #ece8e8;
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 30px;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.brushes button:after {
+    height: 1px;
+    display: block;
+    background: #808080;
+    content: '';
+}
+
+.brushes button:nth-of-type(1):after {
+    height: 1px;
+}
+
+.brushes button:nth-of-type(2):after {
+    height: 2px;
+}
+
+.brushes button:nth-of-type(3):after {
+    height: 3px;
+}
+
+.brushes button:nth-of-type(4):after {
+    height: 4px;
+}
+
+.brushes button:nth-of-type(5):after {
+    height: 5px;
+}
+
+.buttons {
+    height: 120px;
+    padding-top: 20px;
+}
+
+.buttons button {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: #ece8e8;
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 30px;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.right-block {
+    width: 790px;
+}
+
+canvas {
+    cursor: crosshair;
+}
